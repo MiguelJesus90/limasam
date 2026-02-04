@@ -538,6 +538,7 @@ function renderMultimediaSection(topic) {
                                         title="YouTube video player" 
                                         frameborder="0" 
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                        referrerpolicy="strict-origin-when-cross-origin"
                                         allowfullscreen>
                                     </iframe>
                                 </div>
@@ -606,18 +607,17 @@ function renderMultimediaSection(topic) {
 function getYouTubeEmbedUrl(url) {
     if (!url) return null;
     
-    // Check if it's already an embed URL
-    if (url.includes('youtube.com/embed/')) return url;
-    
     let videoId = null;
     
-    if (url.includes('youtube.com/watch?v=')) {
+    if (url.includes('youtube.com/embed/')) {
+        videoId = url.split('embed/')[1].split('?')[0];
+    } else if (url.includes('youtube.com/watch?v=')) {
         videoId = url.split('v=')[1].split('&')[0];
     } else if (url.includes('youtu.be/')) {
         videoId = url.split('youtu.be/')[1].split('?')[0];
     }
     
-    return videoId ? `https://www.youtube.com/embed/${videoId}` : null;
+    return videoId ? `https://www.youtube.com/embed/${videoId}?rel=0` : null;
 }
 
 function formatText(text) {
