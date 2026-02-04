@@ -98,7 +98,7 @@ const TOPICS_DATA = [
             "Las pilas deben estar junto a **paradas obligatorias** para optimizar tiempo"
         ],
         multimedia: {
-            video: "https://www.youtube-nocookie.com/embed/yHqNtSrYYQA",
+            video: "https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ",
             presentation: "assets/multimedia/tema1_presentacion.pdf",
             audio: "assets/multimedia/tema1_audio.m4a",
             available: true
