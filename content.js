@@ -98,7 +98,7 @@ const TOPICS_DATA = [
             "Las pilas deben estar junto a **paradas obligatorias** para optimizar tiempo"
         ],
         multimedia: {
-            video: "https://www.youtube.com/watch?v=yHqNtSrYYQA",
+            video: "https://www.youtube-nocookie.com/embed/yHqNtSrYYQA",
             presentation: "assets/multimedia/tema1_presentacion.pdf",
             audio: "assets/multimedia/tema1_audio.m4a",
             available: true
@@ -181,7 +181,7 @@ const TOPICS_DATA = [
         ],
         keyExamPoints: [
             "**Licencia de conducir tipo B VIGENTE** es obligatoria",
-            "**Comprobaciones previas** son obligatorias (niveles, luces, espejos, etc.)",
+            "**Comprobaciones previas** son obligatorias (niveles, luces, clases, etc.)",
             "Temperatura motor ideal: **85-95ºC**",
             "Zona eficiente: **1200-1700 revoluciones**",
             "**Siempre lona/toldo** sobre residuos en caja",
@@ -193,7 +193,7 @@ const TOPICS_DATA = [
             "**PROHIBIDO circular** con cajón en basculación"
         ],
         multimedia: {
-            video: "https://www.youtube.com/watch?v=_-MWIBSISz4",
+            video: "https://www.youtube-nocookie.com/embed/_-MWIBSISz4",
             presentation: "assets/multimedia/tema2_presentacion.pdf",
             audio: "assets/multimedia/tema2_audio.m4a",
             available: true
@@ -287,7 +287,7 @@ const TOPICS_DATA = [
             "**Comunicación:** Teléfono móvil con vehículo"
         ],
         multimedia: {
-            video: "https://www.youtube.com/watch?v=kSeMDengHCo",
+            video: "https://www.youtube-nocookie.com/embed/kSeMDengHCo",
             presentation: "assets/multimedia/tema3_presentacion.pdf",
             audio: "assets/multimedia/tema3_audio.m4a",
             available: true
@@ -367,7 +367,7 @@ const TOPICS_DATA = [
             "**Obligatoriedad:** Todos objetivos deben cumplirse"
         ],
         multimedia: {
-            video: "https://www.youtube.com/watch?v=2S4GHODgiKI",
+            video: "https://www.youtube-nocookie.com/embed/2S4GHODgiKI",
             presentation: "assets/multimedia/tema4_presentacion.pdf",
             audio: "assets/multimedia/tema4_audio.m4a",
             available: true
@@ -462,7 +462,7 @@ const TOPICS_DATA = [
             "**OBLIGATORIO señalizar** perímetro de zona trabajo"
         ],
         multimedia: {
-            video: "https://www.youtube.com/watch?v=WG6Xvd8Nm6s",
+            video: "https://www.youtube-nocookie.com/embed/WG6Xvd8Nm6s",
             presentation: "assets/multimedia/tema5_presentacion.pdf",
             audio: "assets/multimedia/tema5_audio.m4a",
             available: true
@@ -554,7 +554,7 @@ const TOPICS_DATA = [
             "**Conectar luces y señalizar** zona"
         ],
         multimedia: {
-            video: "https://www.youtube.com/watch?v=MIPqYQLASKU",
+            video: "https://www.youtube-nocookie.com/embed/MIPqYQLASKU",
             presentation: "assets/multimedia/tema6_presentacion.pdf",
             audio: "assets/multimedia/tema6_audio.m4a",
             available: true
@@ -664,7 +664,7 @@ const TOPICS_DATA = [
             "**Finalización:** Recoger material trabajo, FINALMENTE señalización"
         ],
         multimedia: {
-            video: "https://www.youtube.com/watch?v=rvwmneci6RU",
+            video: "https://www.youtube-nocookie.com/embed/rvwmneci6RU",
             presentation: "assets/multimedia/tema7_presentacion.pdf",
             audio: "assets/multimedia/tema7_audio.m4a",
             available: true
