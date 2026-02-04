@@ -1,0 +1,10 @@
+.DS_Store
+*.pyc
+__pycache__/
+.env
+
+# Multimedia (Videos are hosted on YouTube)
+*.mp4
+
+# Note: .m4a (audios) and .pdf (presentations) are allowed to be uploaded to GitHub
+# unless they exceed the size limits.
