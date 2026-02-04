@@ -610,14 +610,15 @@ function getYouTubeEmbedUrl(url) {
     let videoId = null;
     
     if (url.includes('youtube.com/embed/')) {
-        return url; // Ya es un enlace de inserción
+        videoId = url.split('embed/')[1].split('?')[0];
     } else if (url.includes('youtube.com/watch?v=')) {
         videoId = url.split('v=')[1].split('&')[0];
     } else if (url.includes('youtu.be/')) {
         videoId = url.split('youtu.be/')[1].split('?')[0];
     }
     
-    return videoId ? `https://www.youtube.com/embed/${videoId}` : null;
+    // Usamos youtube-nocookie.com para máxima compatibilidad
+    return videoId ? `https://www.youtube-nocookie.com/embed/${videoId}?rel=0` : null;
 }
 
 function formatText(text) {
