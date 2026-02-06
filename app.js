@@ -607,7 +607,8 @@ function renderMultimediaSection(topic) {
 function getYouTubeEmbedUrl(url) {
     if (!url) return null;
     if (url.includes('youtube.com/embed/') || url.includes('youtube-nocookie.com/embed/')) {
-        return url;
+        // Aseguramos que use www.youtube.com para evitar bloqueos de algunos videos ocultos
+        return url.replace('youtube-nocookie.com', 'youtube.com');
     }
     return null;
 }
