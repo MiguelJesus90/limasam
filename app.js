@@ -370,14 +370,15 @@ function renderTopicDetail(topicId) {
                 </div>
             </div>
             <div class="topic-header-actions">
-                <button class="btn-outline" onclick="startQuiz(${topicId})" style="margin-right: 0.5rem;">
-                    <span style="font-size: 1.2em;">🧠</span> Test
+                <button class="btn-outline btn-quiz" onclick="startQuiz(${topicId})">
+                    <span class="btn-icon-text">🧠</span>
+                    <span>Test</span>
                 </button>
-                <button class="btn-primary" onclick="toggleComplete(${topicId})">
+                <button class="btn-primary btn-complete" onclick="toggleComplete(${topicId})">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="20 6 9 17 4 12"/>
                     </svg>
-                    ${isCompleted ? 'Marcar como no completado' : 'Marcar como completado'}
+                    <span>${isCompleted ? 'Completado' : 'Marcar completado'}</span>
                 </button>
             </div>
         </div>
