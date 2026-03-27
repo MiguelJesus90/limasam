@@ -288,7 +288,7 @@ function renderOverview() {
     const html = `
         <div class="overview-header">
             <h1 class="overview-title">Manual del Operario de Limpieza LIMASAM</h1>
-            <p class="overview-subtitle">Preparación completa para examen de oposición TAI</p>
+            <p class="overview-subtitle">Preparación completa para examen de oposición Limasam</p>
         </div>
         
         <div class="topics-grid">

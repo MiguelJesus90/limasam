@@ -1,6 +1,6 @@
 # LIMASAM Study Platform 🧹
 
-Una aplicación web moderna e interactiva para la preparación del examen de oposición TAI - Operario de Limpieza LIMASAM.
+Una aplicación web moderna e interactiva para la preparación del examen de oposición Limasam - Operario de Limpieza LIMASAM.
 
 ![LIMASAM Study](https://img.shields.io/badge/Topics-7-success)
 ![Status](https://img.shields.io/badge/Status-Ready-brightgreen)
@@ -192,11 +192,11 @@ Las secciones están claramente marcadas como "Próximamente" en la interfaz.
 
 ## 📄 Licencia
 
-Este proyecto es para uso personal de estudio. El contenido está basado en el manual oficial de LIMASAM para oposiciones TAI.
+Este proyecto es para uso personal de estudio. El contenido está basado en el manual oficial de LIMASAM para oposiciones Limasam.
 
 ## 👤 Autor
 
-Creado para la preparación de examen de oposición TAI - Operario de Limpieza LIMASAM.
+Creado para la preparación de examen de oposición Limasam - Operario de Limpieza LIMASAM.
 
 ---
 
