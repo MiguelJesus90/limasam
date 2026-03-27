@@ -730,6 +730,7 @@ a:hover {
     display: inline-flex;
     align-items: center;
     gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-lg);
 }
 
 .btn-quiz .btn-icon-text {
@@ -740,6 +741,7 @@ a:hover {
     display: inline-flex;
     align-items: center;
     gap: var(--spacing-sm);
+    padding: var(--spacing-sm) var(--spacing-lg);
 }
 
 .btn-complete svg {
