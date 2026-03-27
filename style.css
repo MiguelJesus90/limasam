@@ -1165,6 +1165,18 @@ a:hover {
     .topic-header-title {
         font-size: var(--font-size-2xl);
     }
+
+    .content-section {
+        padding: var(--spacing-md);
+    }
+
+    .main-content {
+        padding: var(--spacing-md);
+    }
+
+    .overview-header {
+        padding: var(--spacing-lg);
+    }
 }
 
 /* SVG Gradient Definition */
