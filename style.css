@@ -845,11 +845,13 @@ a:hover {
 .section-content ol {
     margin-left: var(--spacing-xl);
     margin-bottom: var(--spacing-md);
+    max-width: 60ch;
 }
 
 .section-content li {
     margin-bottom: var(--spacing-sm);
     color: var(--color-text-secondary);
+    line-height: 1.6;
 }
 
 .section-content strong {
