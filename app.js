@@ -50,6 +50,13 @@ const Storage = {
 document.addEventListener('DOMContentLoaded', () => {
     Storage.load();
     setupEventListeners();
+    
+    // Initialize reading mode from localStorage
+    const readingMode = localStorage.getItem('limasam_reading_mode') === 'true';
+    if (readingMode) {
+        document.documentElement.classList.add('reading-mode');
+    }
+    
     renderTopicList();
     renderOverview();
     updateProgress();
@@ -79,6 +86,9 @@ function setupEventListeners() {
 
     // Reset progress
     document.getElementById('resetProgress').addEventListener('click', resetProgress);
+
+    // Reading mode toggle
+    document.getElementById('readingModeBtn').addEventListener('click', toggleReadingMode);
 
     // Handle browser back/forward
     window.addEventListener('hashchange', handleHashChange);
@@ -117,7 +127,15 @@ function toggleTheme() {
     document.documentElement.setAttribute('data-theme', AppState.theme);
     Storage.save();
 }
-
+ 
+// Reading mode
+function toggleReadingMode() {
+    document.documentElement.classList.toggle('reading-mode');
+    // Save preference to localStorage
+    const isReadingMode = document.documentElement.classList.contains('reading-mode');
+    localStorage.setItem('limasam_reading_mode', isReadingMode);
+}
+ 
 // =======================
 // NAVIGATION
 // =======================

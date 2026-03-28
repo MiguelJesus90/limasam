@@ -1183,6 +1183,28 @@ a:hover {
     }
 }
 
+/* Reading Mode Styles */
+.reading-mode .sidebar,
+.reading-mode .header,
+.reading-mode .footer {
+    display: none !important;
+}
+
+.reading-mode .app-container {
+    grid-template-columns: 1fr !important;
+}
+
+.reading-mode #mainContent {
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: var(--spacing-2xl) !important;
+}
+
+/* Hide overlay in reading mode */
+.reading-mode .sidebar-overlay {
+    display: none !important;
+}
+
 /* SVG Gradient Definition */
 svg defs {
     display: none;
