@@ -1185,9 +1185,7 @@ a:hover {
 
 /* Reading Mode Styles */
 .reading-mode .sidebar,
-.reading-mode .logo-text,
-.reading-mode .logo-subtitle,
-.reading-mode .logo-author,
+.reading-mode .logo,
 .reading-mode .footer {
     display: none !important;
 }
