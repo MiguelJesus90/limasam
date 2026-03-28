@@ -837,6 +837,8 @@ a:hover {
 
 .section-content p {
     margin-bottom: var(--spacing-md);
+    max-width: 65ch;
+    line-height: 1.7;
 }
 
 .section-content ul,
