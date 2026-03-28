@@ -1185,9 +1185,14 @@ a:hover {
 
 /* Reading Mode Styles */
 .reading-mode .sidebar,
-.reading-mode .header,
+.reading-mode .logo-text,
+.reading-mode .logo-subtitle,
+.reading-mode .logo-author,
 .reading-mode .footer {
     display: none !important;
+}
+.reading-mode .header-content {
+    justify-content: center;
 }
 
 .reading-mode .app-container {
